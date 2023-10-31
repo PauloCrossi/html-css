@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex18-Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'agua';
+            src: url('fontes/Be\ My\ Valentine.otf') format('opentype'), url('fontes/Be\ My\ Valentine.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family:'xb';
+            src: url('fontes/Fortune.otf') format('opentype');
+        }
+        /*
+        Tipos de format ()
+        - opentype(otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truepe-aat (apple Advanced Typography)
+        -svg
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family:'agua', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+        #xb {
+font-family: 'xb', Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <H1>Título</H1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cumque, alias cum ducimus iure earum fugiat obcaecati recusandae necessitatibus numquam quae, doloribus, sunt quo laborum tenetur inventore dolores! Quos, corrupti.</p>
+    <h1 id="xb">Paulo Crossi</h1>
+</body>
+</html>

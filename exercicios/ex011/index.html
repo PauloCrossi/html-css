@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+   
+</head>
+<body>
+    
+    <h1>Imagem Dinâmica</h1>
+
+    <p>Abra esse site em varíos dispositivos diferente ou simplesmente aumente e diminua a tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 800px )" srcset="imagens/imagem_p.png" type="image/png">
+        <source media="(max-width:1080px )" srcset="imagens/imagem_m.png" type="image/png">
+        <img src="imagens/imagem_g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo  Áudio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+
+    <h2>Atributo autoplay</h2>
+    <audio src="midia/Pop.mp" autoplay ></audio>
+    <!-- atributo autoplay: o controle será transparente e o usuario não pode interagir com ele e vai reproduzir o audio assim que a página for carregada automáticamente.  -->
+
+    <h2>Atributo controls</h2>
+    <audio src="midia/Pop.mp3" controls loop ></audio>
+    <!--Atributo controls:vai apresentar o player na tela e vai iniciar so quando o usuário apertar o botão play. Atributo loop vai fazer com que o audio se repita apos do termino da reprodução.
+     -->
+
+     <h2>TAG audio e source </h2>
+     <audio preload="none" controls>
+       <source src="midia/Reggae.mp3" type="audio/mpeg">
+     </audio>
+    
+
+</body>
+</html>

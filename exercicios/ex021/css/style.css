@@ -1,0 +1,58 @@
+@charset "UFT-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+.body {
+    background-color: rgb(214, 214, 214);
+    font: normal 18px Arial, Verdana, Sans-serif;
+    margin: 0;
+}
+.header {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+   
+}
+nav {
+    background-color: aqua;
+    padding: 8px;
+    box-shadow: 2px 2px 4px 1px rgba(40, 40, 40, 0.345);
+    border-radius: 8px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+nav > a:hover {
+    
+    background: gold;
+    display:inline-block ;
+    width: 50px;
+    text-align: center;
+}
+.main {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+   
+}
+article {
+    background-color: rgb(214, 214, 214);
+    border-radius: 6px;
+    padding: 8px;
+}
+article > aside {
+    background-color: aqua;
+    text-align: right;
+    border-radius: 8px;
+    padding: 4px;
+}

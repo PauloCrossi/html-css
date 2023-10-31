@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo de responsivel</title>
+    <style>
+      body{
+        background-color: aqua;
+      } 
+      main{
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+       
+       /*responsivel com minimo do width para dispositivel movel*/
+       min-width: 220px;
+       /*responsivel com maximo do width para dispositivel desktop*/
+       max-width: 800px; 
+       /*margin auto para centralizar*/
+       margin: auto;
+
+      } 
+      img{
+        /*width 100% a imagem fica responsivel automaticamente*/
+        width: 100%;
+      }
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, nobis recusandae. Earum corrupti ipsam reprehenderit omnis facere ullam molestiae illum quibusdam provident accusamus in praesentium soluta, incidunt minima sequi animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio est necessitatibus, sit, ab eum excepturi omnis quas vero incidunt doloremque eligendi quis tempore qui. Incidunt perferendis doloremque vel. et assumenda ea unde!</p>
+        <!--Tag(picture) dentro TAG (souerce media) voce escolhe propriedade (media) e uns do valores: max ou min do width conforme necessario, depois a propriedade (srcset) o caminho do seu arquivo. -->
+        <picture>
+            <source media="(max-width: 400px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok"></picture>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, nobis recusandae. Earum corrupti ipsam reprehenderit omnis facere ullam molestiae illum quibusdam provident accusamus in praesentium soluta, incidunt minima sequi animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio est necessitatibus, sit, ab eum excepturi omnis quas vero incidunt doloremque eligendi quis tempore qui. Incidunt perferendis doloremque vel. t assumenda ea unde!</p>
+    </main>
+</body>
+</html>
