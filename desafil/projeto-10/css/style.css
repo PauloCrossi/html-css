@@ -122,7 +122,7 @@ div.video > iframe{
     position: absolute; /*posição absoluto permite trabalhar com altura largura etc..*/
     width: 90%;/*altera a largura do video*/
     height: 74%;/*altera a altura do video*/
-    top: 10%;
+    top: 13.4%;
     left: 5%;
 }
 
