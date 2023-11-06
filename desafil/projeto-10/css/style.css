@@ -114,16 +114,15 @@ div.video{
    background-color: var(--cor1); 
    margin: 0px -20px 30px -20px;
    padding: 20%;
-
-   padding-bottom: 55%; /*o padding vai mexer  nas  borda dentro do video*/
+   padding-bottom: 54%; /*o padding vai mexer  nas  borda dentro do video*/
    position: relative;
 }
 div.video > iframe{
     position: absolute; /*posição absoluto permite trabalhar com altura largura etc..*/
-    width: 90%;/*altera a largura do video*/
-    height: 74%;/*altera a altura do video*/
+    width: 88%;/*altera a largura do video*/
+    height: 72%;/*altera a altura do video*/
     top: 13.4%;
-    left: 5%;
+    left: 6%;
 }
 
 #article{
